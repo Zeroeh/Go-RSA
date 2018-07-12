@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"encoding/pem"
 	"crypto/x509"
 	"crypto/rsa"
@@ -32,5 +33,5 @@ func main() {
 }
 
 func doWork(s string) {
-
+	fmt.Println(s)
 }
